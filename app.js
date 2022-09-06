@@ -1,10 +1,12 @@
 const express = require('express');
 const path = require('path');
-// app.use(express.static(path.join(__dirname, 'public')));
 const PORT = 3030;
+const publicPath = path.resolve(__dirname, './public');
+
 
 const app = express();
 
+app.use(express.static(publicPath));
 
 app.listen(PORT, () => {
     console.log(`Server listen in ${PORT}`);
