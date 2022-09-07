@@ -1,8 +1,19 @@
 footer{
-    text-align: center;
+    margin-top: 20vh;
+    background-color: #ebd234;
 }
 
 i{
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 1.2em;
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+}
+
+.footer__content{
+    padding: 10px;
+text-align: center;
+}
+.footer__content-title{
+    font-weight: bold;
+    font-size: 1.2em;
 }
