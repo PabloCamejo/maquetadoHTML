@@ -1,0 +1,8 @@
+.logo{
+    width: 150px;
+}
+header{
+    background-color: var(--amarillo);
+    width: 100vw;
+    display: flex;
+}

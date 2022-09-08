@@ -35,6 +35,20 @@ ul{
     display: none;
 }
 
+
+section{
+    /* background-color: red; */
+    width: 300px;
+    display: flex;
+    flex: wrap;
+}
+.titulares{
+    width: 100%;
+    text-align: center;
+}
+
+
+
 /* Navegación en tablets (ancho mínimo 361 px)
 Navegación en desktop (ancho mínimo 769 px)
  */
