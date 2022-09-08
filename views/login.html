@@ -49,11 +49,11 @@
 
         <form action="/" class="register">
 
-            <label for="userName">Usuario</label>
-            <input id="userName" type="text" placeholder="Nombre de usuario">
+            <label for="userName"  >Usuario</label>
+            <input id="userName" required type="text" placeholder="Nombre de usuario">
             <label for="pass" >Password</label>
-            <input  id="pass" type="password" placeholder="Ingrese su password">
-
+            <input  id="pass" required maxlength="12" minlength="4" type="password" placeholder="Ingrese su password">
+            
             <button type="submit">Login</button>
 
         </form>

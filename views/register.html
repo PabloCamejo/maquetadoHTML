@@ -48,18 +48,18 @@
     <main class="register_form">
         <form action="/" class="register">
 
-            <input type="text" placeholder="Nombre y apellido">
-            <input type="text" placeholder="Nombre de usuario">
-            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Nombre y apellido" required>
+            <input type="text" placeholder="Nombre de usuario" required>
+            <input type="email" placeholder="Email" required>
             
             <h3>Fecha de nacimiento</h3>
-            <input type="date">
-            <input type="text" placeholder="Domicilio">
+            <input type="date" required>
+            <input type="text" placeholder="Domicilio" required>
 
             <h3>Perfil de usuario</h3>
             <div class="perfil_usuario">
-                <label for="comprador"><input type="radio" name="perfil" value="comprador"/> Comprador</label> 
-                <label for="vendedor"><input type="radio" name="perfil" value="vendedor"/>Vendedor</label>
+                <label for="comprador"><input type="radio" name="perfil" value="comprador" required/> Comprador</label> 
+                <label for="vendedor"><input type="radio" name="perfil" value="vendedor" required />Vendedor</label>
             </div>
 
             <h3>Intereses</h3>
@@ -73,13 +73,13 @@
             </div>
 
             <h3>Foto de usuario</h3>
-            <input type="file" accept=".jpg, .jpeg, .png" name=""/>
+            <input type="file" accept=".jpg, .jpeg, .png" name="" required/>
 
             <h3>Password</h3>
-            <input type="password" placeholder="Pone tu password">
+            <input type="password" placeholder="Pone tu password" minlength="4" maxlength="12" required>
 
             <h3>Confirme password</h3>
-            <input type="password" placeholder="Pone tu password otra vez">
+            <input type="password" placeholder="Pone tu password otra vez" minlength="4" maxlength="12" required>
 
             <button type="submit">ENVIAR</button>
             <button type="reset">BORRAR</button>
