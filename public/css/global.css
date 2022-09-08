@@ -12,4 +12,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: var(--gris-claro);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
 }

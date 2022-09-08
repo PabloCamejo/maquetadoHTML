@@ -2,13 +2,17 @@ main{
     text-align: center;
     width: 90vw;
     margin: auto;
+    background-color: #bbb;
 }
 
 main article{
     margin: 10px 0px;
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    background-color: white;
 }
+
+
 
 
 ul{
@@ -36,15 +40,20 @@ ul{
 }
 
 
-section{
-    /* background-color: red; */
+.productos{
+    /* background-color: red;
     width: 300px;
     display: flex;
-    flex: wrap;
+    flex: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ebebeb;
 }
 .titulares{
-    width: 100%;
-    text-align: center;
+        font-size: 24px;
+        width: 100%;
 }
 
 
@@ -57,8 +66,9 @@ Navegación en desktop (ancho mínimo 769 px)
     .descripciones{
         display: block;
     }
-    main article{
+    main article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
     }
     .site-navbar, .login-navbar{
         display: block;
