@@ -1,0 +1,36 @@
+.articulos ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+.articulos li:first-child{
+    text-align: start;
+    width: 30%;
+}
+.articulos li:nth-child(2){
+    text-align: end;
+    width: 70%;
+}
+.articulos li:last-child{
+    text-align: start;
+    justify-items: flex-start;
+    width: 100%;
+}
+
+@media screen and (min-width: 361px){
+    .articulos{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .articulos{
+        width: 25%;
+    }
+}
