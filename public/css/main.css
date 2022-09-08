@@ -43,6 +43,11 @@ ul{
     display: none;
 }
 
+.login_form{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+}
 /* Navegación en tablets (ancho mínimo 361 px)
 Navegación en desktop (ancho mínimo 769 px)
  */
@@ -51,8 +56,9 @@ Navegación en desktop (ancho mínimo 769 px)
     .descripciones{
         display: block;
     }
-    main article{
+    main article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
     }
     .site-navbar, .login-navbar{
         display: block;
