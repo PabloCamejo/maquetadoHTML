@@ -25,12 +25,12 @@ img{
 
 @media screen and (min-width: 361px){
     .articulos{
-        width: 50%;
+        width: 45%;
     }
 }
 
 @media screen and (min-width: 769px){
     .articulos{
-        width: 25%;
+        width: 23%;
     }
 }
