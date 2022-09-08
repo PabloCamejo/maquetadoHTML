@@ -1,0 +1,11 @@
+.cabecera{
+    display: flex;
+}
+
+.search input{
+    width: 50%;
+}
+
+.logo img{
+    height: 50%;
+}

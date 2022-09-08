@@ -15,8 +15,16 @@ ul{
     list-style: none;
 }
 
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
 .titulares{
     font-size: 24px;
+    width: 100%;
 }
 
 .precios{
@@ -52,6 +60,8 @@ Navegación en desktop (ancho mínimo 769 px)
     .burger-menu{
         display: none;
     }
+
+
 
 }
 

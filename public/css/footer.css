@@ -1,6 +1,9 @@
-footer{
+.piePagina{
     margin-top: 20vh;
     background-color: #ebd234;
+    display: flex;
+    justify-content: center;
+
 }
 
 i{
@@ -10,6 +13,7 @@ i{
 }
 
 .footer__content{
+    display: flex;
     padding: 10px;
 text-align: center;
 }

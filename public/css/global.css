@@ -9,6 +9,12 @@
     --verde: #39b54a;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
