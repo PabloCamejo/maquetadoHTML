@@ -14,46 +14,47 @@
 
     <header role="banner" class="cabecera">
         <!--Logo-->
-        <div class="logo">
-            <img src="/images/logo-mercado-liebre.svg" />
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo" />
+            <!--Barra de busqueda-->
+            <form role="search" method="GET" class="form-search-bar">
+                <input type="text" placeholder="Busca tus productos aqui" />
+                <i class="fas fa-search"></i>
+            </form>
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        <!--Texto-->
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
-        <!--Barra de busqueda-->
-        <form role="search" method="GET">
-            <input type="text" placeholder="Busca tus productos aqui" />
-            <button type="submit">BUSCAR</button>
-        </form>
-        <!--Barra de navegacion-->
-        <nav class="site-navbar">
-            <ul>
-                <li>Ofertas</li>
-                <li>Tiendas Oficiales</li>
-                <li>Vender</li>
-                <li>Ayuda</li>
-            </ul>
-        </nav>
-        <nav class="login-navbar">
-            <ul>
-                <li><a href="/register">Crea tu cuenta</a></li>
+        
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>`
+
+            <ul class="right-navbar">
+                <li><a href="/register">Crea tu cuenta<i class="fas fa-credit-card"></i></a></li>
                 <li><a href="/login">Ingresa</a></li>
-                <li>Mis compras</li>
+                <li><a href="">Mis compras</a></li>
             </ul>
         </nav>
-        <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-        </div>
     </header>
 
     <main class="login_form">
 
         <form action="/" class="register">
 
-            <label for="userName"  >Usuario</label>
+            <label for="userName">Usuario</label>
             <input id="userName" required type="text" placeholder="Nombre de usuario">
-            <label for="pass" >Password</label>
-            <input  id="pass" required maxlength="12" minlength="4" type="password" placeholder="Ingrese su password">
-            
+            <label for="pass">Password</label>
+            <input id="pass" required maxlength="12" minlength="4" type="password" placeholder="Ingrese su password">
+
             <button type="submit">Login</button>
 
         </form>
