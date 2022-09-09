@@ -1,5 +1,6 @@
 .cabecera{
     display: flex;
+    background-color: var(--amarillo);
 }
 
 .search input{

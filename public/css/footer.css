@@ -1,8 +1,9 @@
 .piePagina{
-    margin-top: 20vh;
+    margin-top: 30vh;
     background-color: #ebd234;
     display: flex;
     justify-content: center;
+    height: 200px;
 
 }
 
