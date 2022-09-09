@@ -2,8 +2,8 @@
     text-align: center;
     width: 90vw;
     margin: auto; 
-    margin-top: 50px;
     height: 100%;
+    margin-top: 70px;
 }
 
  /* article{
@@ -50,9 +50,7 @@ ul{
     width: 350px;
     height: 200px;
 }
-/* Navegación en tablets (ancho mínimo 361 px)
-Navegación en desktop (ancho mínimo 769 px)
- */
+
 
 @media screen and (min-width: 361px){
     .descripciones{
@@ -63,18 +61,19 @@ Navegación en desktop (ancho mínimo 769 px)
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         cursor: pointer;
     }
-    .site-navbar, .login-navbar{
-        display: block;
-    }
-    .burger-menu{
-        display: none;
-    }
-
-
-
 }
 
-@media screen and (min-width: 769px){
-   
 
+@media (min-width: 600px){
+    main{
+        margin-top: 140px;
+    }
 }
+
+
+@media (min-width: 1000px){
+    main{
+        margin-top: 160px;
+    }
+}
+
