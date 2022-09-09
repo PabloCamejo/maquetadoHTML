@@ -7,46 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e32b1dc814.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
 
 <body>
-    <header role="banner">
+
+    <header role="banner" class="main-header">
         <!--Logo-->
-        <div>
-            <img src="/images/logo-mercado-liebre.svg" />
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo" />
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
         </div>
+
+        <a href="" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>`
+
+            <ul class="right-navbar">
+                <li><a href="">Crea tu cuenta<i class="fas fa-credit-card"></i></a></li>
+                <li><a href="">Ingresa</a></li>
+                <li><a href="">Mis compras</a></li>
+            </ul>
+        </nav>
+
+
         <!--Texto-->
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
         <!--Barra de busqueda-->
         <form role="search" method="GET">
             <input type="text" placeholder="Busca tus productos aqui"/>
             <button type="submit">BUSCAR</button>
         </form>
         <!--Barra de navegacion-->
-        <nav class="site-navbar">
-            <ul>
-                <li>Ofertas</li>
-                <li>Tiendas Oficiales</li>
-                <li>Vender</li>
-                <li>Ayuda</li>
-            </ul>
-        </nav>
-        <nav class="login-navbar">
-            <ul>
-                <li>Crea tu cuenta</li>
-                <li>Ingresa</li>
-                <li>Mis compras</li>
-            </ul>
-        </nav>
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
     </header>
     <main>
         <section>
+
+            <article class="product">
+                <img src="/img/img-cafetera-moulinex.jpg" alt="" width="200px">
+                <h2>CAFETERA</h2>
+            </article>
+            
             <h2 class="titulares">Sección: Basado en tu última visita</h2>
-            <article >
+            <article>
                 <img src="/img/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex" width="200px">
                 <ul>
                     <li class="precios">6.770 puntos</li>

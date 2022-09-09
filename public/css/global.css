@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 :root{
     --amarillo: #EAC926;
     --azul: #03264C;
     --celeste: #1259c3;
-    --gris-oscuro: #666;
+    --gris-oscuro: #222222;
     --gris-claro: #ebebeb;
     --verde: #39b54a;
 }
