@@ -25,13 +25,16 @@ img{
 
 }
 .articulos li:last-child{
-   display: none;
+   display: block;
+   font-size: 16px;
+
+   opacity: 0;
 }
 .articulos:hover li:last-child{
-    font-size: 16px;
+    opacity: 1;
     /* display: block; */
-    animation: cards-description 5s;
-    margin-top: 10px;
+    /* animation: cards-description 5s; */
+    /* margin-top: 10px; */
     color: var(--gris-oscuro);
 }
 .articulos{
